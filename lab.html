@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Mediisha HTML</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link type="image/x-icon" href="images/favicon.png" rel="icon">
+
+    <link rel="stylesheet" href="https://mediisha.nepalrocks.com/assets/libs/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/app.css" />
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+    <div class="main-wrapper">
+
+        <header class="header">
+            <nav class="navbar navbar-expand-lg header-nav">
+                <div class="navbar-header">
+                    <a id="mobile_btn" href="javascript:void(0);">
+                        <span class="bar-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+                    <a href="index.html" class="navbar-brand logo">
+                        <img src="https://mediisha.nepalrocks.com/assets/img/logo.jpg" class="img-logo" alt="Logo">
+                    </a>
+                </div>
+                <div class="main-menu-wrapper">
+                    <div class="menu-header">
+                        <a href="index.html">
+                            <img src="https://mediisha.nepalrocks.com/assets/img/logo.png" class="img-fluid" alt="Logo">
+                        </a>
+                        <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                    <ul class="main-nav">
+                        <li class="has-submenu active">
+                            <a href="https://mediisha.nepalrocks.com/search">Find Doctors</a>
+                            <span>Book an appointment</span>
+                        </li>
+                        <li class="has-submenu ">
+                            <a href="">Pharmacy</a>
+                            <span>Medicines &amp; Health Product</span>
+                        </li>
+
+                        <li class="has-submenu ">
+                            <a href="lab.html">Lab Tests </a>
+                            <span>Book tests &amp; checkup</span>
+                        </li>
+
+                        <li class="has-submenu ">
+                            <a href="#">Offers </a>
+                            <span>Coupens And Discount</span>
+                        </li>
+
+                        <li class="has-submenu ">
+                            <a href="#">Blog </a>
+                            <span>Blogs</span>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <ul class="nav header-navbar-rht">
+                    <!-- <li class="has-submenu">
+                        <a href="">For Corporates <i class="fas fa-chevron-down"></i></a>
+                        
+                    </li> -->
+
+                    <li>
+                        <a href="">For Providers <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://mediisha.com/cart" class="d-flex position-relative">
+                            <i class="fas fa-shopping-cart"></i>
+                            <p class="position-absolute d-flex align-items-center justify-content-center tot_cart">0</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="me_banner">
+            <div class="container-fluid">
+                <div class="me_banner_bg"
+                    style="background: url(https://mediisha.nepalrocks.com/assets/mediisha/banner.png);">
+                    <div class="banner_text aos" data-aos="fade-up">
+                        <h3>Connect anytime, anywhere with 24*7 doctors available just for you</h3>
+
+                        <div class="search-box  aos" data-aos="fade-up">
+                            <form action="search">
+                                <div class="form-group search-location">
+                                    <span class="form-text">Based on your Location</span>
+                                    <input type="text" class="form-control" placeholder="Search Location">
+
+                                </div>
+                                <div class="form-group search-info">
+                                    <span class="form-text">Ex : Dental or Sugar Check up etc</span>
+                                    <input type="text" class="form-control"
+                                        placeholder="Search Doctors, Clinics, Hospitals, Diseases Etc">
+
+                                </div>
+                                <button type="submit" class="btn btn-primary search-btn mt-0"><i
+                                        class="fas fa-search"></i> <span>Search</span></button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="help">
+            <div class="container">
+                <section class=" cto">
+                    <div class="flex content">
+                        <div class="flex intro">
+                            <i class="fas fa-users people-icon"></i>
+                            <div class="asking">
+                                <h4>Need help with booking your test?</h4>
+                                <p>Our experts are here to help you</p>
+                            </div>
+                        </div>
+                        <div class="phone-number flex">
+                            <i class="fas fa-phone-volume call"></i>
+                            <a href="tel:+977-1-5451978">+977-9808720213</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <section class="booked-tests">
+            <div class="container">
+                <div class="title">
+                    <h4>Top Booked Diagnostic Tests</h4>
+                </div>
+                <div class="tests-slider owl-carousel">
+                    <div class="item">
+                        <div class="wrapper">
+                            <div class="detail padding">
+                                <h5> Beta HCG </h5>
+                                <h6>Known as Beta Hcg Automated Blood</h6>
+                                <p>E-Reports on next day</p>
+                                <h2>Rs. 400</h2>
+                            </div>
+                            <div class="add padding">
+                                <button class="submit">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="wrapper">
+                            <div class="detail padding">
+                                <h5> Vitamin B 12 </h5>
+                                <h6>Known as Vitamin B12 Conventional Blood</h6>
+                                <p>E-Reports on same day</p>
+                                <h2>Rs. 490</h2>
+                            </div>
+                            <div class="add padding">
+                                <button class="submit">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="wrapper">
+                            <div class="detail padding">
+                                <h5> Beta HCG </h5>
+                                <h6>Known as Beta Hcg Automated Blood</h6>
+                                <p>E-Reports on next day</p>
+                                <h2>Rs. 400</h2>
+                            </div>
+                            <div class="add padding">
+                                <button class="submit">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="wrapper">
+                            <div class="detail padding">
+                                <h5> Vitamin B 12 </h5>
+                                <h6>Known as Vitamin B12 Conventional Blood</h6>
+                                <p>E-Reports on same day</p>
+                                <h2>Rs. 490</h2>
+                            </div>
+                            <div class="add padding">
+                                <button class="submit">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="wrapper">
+                            <div class="detail padding">
+                                <h5> Beta HCG </h5>
+                                <h6>Known as Beta Hcg Automated Blood</h6>
+                                <p>E-Reports on next day</p>
+                                <h2>Rs. 400</h2>
+                            </div>
+                            <div class="add padding">
+                                <button class="submit">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="wrapper">
+                            <div class="detail padding">
+                                <h5> Vitamin B 12 </h5>
+                                <h6>Known as Vitamin B12 Conventional Blood</h6>
+                                <p>E-Reports on same day</p>
+                                <h2>Rs. 490</h2>
+                            </div>
+                            <div class="add padding">
+                                <button class="submit">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="wrapper">
+                            <div class="detail padding">
+                                <h5> Vitamin B 12 </h5>
+                                <h6>Known as Vitamin B12 Conventional Blood</h6>
+                                <p>E-Reports on same day</p>
+                                <h2>Rs. 490</h2>
+                            </div>
+                            <div class="add padding">
+                                <button class="submit">ADD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tests me_consult">
+            <div class="container">
+                <div class="title">
+                    <h4>Find Tests by Health Concern</h4>
+                </div>
+                <div class="test-types owl-carousel">
+                    <div class="item ">
+                        <div class="col-card">
+                            <img src="./images/consult1.jpg" alt="">
+                            <h5>Fever</h5>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-card">
+                            <img src="./images/consult3.jpg" alt="">
+                            <h5>Fever</h5>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-card">
+                            <img src="./images/consult1.jpg" alt="">
+                            <h5>Fever</h5>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-card">
+                            <img src="./images/consult3.jpg" alt="">
+                            <h5>Fever</h5>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-card">
+                            <img src="./images/consult1.jpg" alt="">
+                            <h5>Fever</h5>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-card">
+                            <img src="./images/consult3.jpg" alt="">
+                            <h5>Fever</h5>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-card">
+                            <img src="./images/consult1.jpg" alt="">
+                            <h5>Fever</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="packages">
+            <div class="container">
+                <ul class="package-nav flex">
+                    <li class="tab active ">
+                        <a data-toggle="tab" href="#tab-1" aria-expanded="true">
+                            Featured Checkups Package
+                        </a>
+                    </li>
+                    <li class="tab   ">
+                        <a data-toggle="tab" href="#tab-2" aria-expanded="false">
+                            Women's Health Package
+                        </a>
+                    </li>
+                    <li class="tab  ">
+                        <a data-toggle="tab" href="#tab-3" aria-expanded="false">
+                            Senior's Health Package
+                        </a>
+                    </li>
+                    <li class="tab   ">
+                        <a data-toggle="tab" href="#tab-4" aria-expanded="false">
+                            Men's Health Package
+                        </a>
+                    </li>
+                </ul>
+                <div class="panel-body ">
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane active">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="package">
+                                        <img src="./images/cute-little-girl-sitting-dentist-s-office.jpg" alt="">
+                                        <div class="desc">
+                                            <h4>Child's Health Checkup</h4>
+                                            <p>Ideal for children aged <span>2 - 8 years</span></p>
+                                            <a href="#">22 tests included</a>
+                                            <div class="booking flex">
+                                                <div class="info flex">
+                                                    <span class="offer-price">Rs. 14000</span>
+                                                    <span class="price">Rs. 17700</span>
+                                                    <span class="discount">22.22% Off</span>
+                                                </div>
+                                                <div class="book-now">
+                                                    <a href="#">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="package">
+                                        <img src="./images/cute-little-girl-sitting-dentist-s-office.jpg" alt="">
+                                        <div class="desc">
+                                            <h4>Child's Health Checkup</h4>
+                                            <p>Ideal for children aged <span>2 - 8 years</span></p>
+                                            <a href="#">22 tests included</a>
+                                            <div class="booking flex">
+                                                <div class="info flex">
+                                                    <span class="offer-price">Rs. 14000</span>
+                                                    <span class="price">Rs. 17000</span>
+                                                    <span class="discount">22.22% Off</span>
+                                                </div>
+                                                <div class="book-now">
+                                                    <a href="#">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quas sint omnis magni quis
+                            explicabo atque eveniet, optio nobis temporibus?
+                        </div>
+                        <div id="tab-3" class="tab-pane ">
+
+                        </div>
+                        <div id="tab-4" class="tab-pane ">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="partners">
+            <div class="container">
+                <div class="partners-wrap">
+                    <div class="title">
+                        <h4>Our Partner Labs</h4>
+                    </div>
+                    <div class="flex partner-logo">
+                        <div class="image">
+                            <img src="./images/logo.jpg" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="./images/logo.jpg" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="./images/logo.jpg" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="./images/logo.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="statement">
+                        <p>Your tests will be conducted in one of our partner labs to ensure highest accuracy of your reports.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="top-tests">
+            <div class="container">
+                <div class="title">
+                    <h4>Top Booked Medical Tests</h4>
+                    <p>Get 10% Health Cashback* T&C</p>
+                </div>
+                <div class="top-tests-slider owl-carousel">
+                    <div class="item">
+                        <div class="top-tests-wrapper">
+                            <div class="test-name flex">
+                                <img src="./images/blood_sugar.png" alt="">
+                                <h5>Blood Sugar</h5>
+                            </div>
+                            <ul class="combined-tests">
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Cholesterol Ldl Enzymatic Colorimetric Method Blood</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <a href="" class="submit">Book Now</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top-tests-wrapper">
+                            <div class="test-name flex">
+                                <img src="./images/blood_sugar.png" alt="">
+                                <h5>Blood Sugar</h5>
+                            </div>
+                            <ul class="combined-tests">
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <a href="" class="submit">Book Now</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top-tests-wrapper">
+                            <div class="test-name flex">
+                                <img src="./images/blood_sugar.png" alt="">
+                                <h5>Blood Sugar</h5>
+                            </div>
+                            <ul class="combined-tests">
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <a href="" class="submit">Book Now</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top-tests-wrapper">
+                            <div class="test-name flex">
+                                <img src="./images/blood_sugar.png" alt="">
+                                <h5>Blood Sugar</h5>
+                            </div>
+                            <ul class="combined-tests">
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <a href="" class="submit">Book Now</a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="top-tests-wrapper">
+                            <div class="test-name flex">
+                                <img src="./images/blood_sugar.png" alt="">
+                                <h5>Blood Sugar</h5>
+                            </div>
+                            <ul class="combined-tests">
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <h6>Hba1c Test</h6>
+                                        <span>Also known as Glycosylated Haemoglobin Test</span>
+                                    </a>
+                                </li>
+                                <a href="" class="submit">Book Now</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="book-with-us bg">
+            <div class="container">
+                <div class="why-us">
+                    <div class="title">
+                        <h4>Why book with us?</h4>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <div class="point flex">
+                            <div class="image">
+                                <img src="./images/blood-sample.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <h4>Home sample collection for FREE</h4>
+                                <p>A certified professional will collect your sample from your preferred location</p>
+                            </div>
+                        </div>
+                        <div class="point flex">
+                            <div class="image">
+                                <img src="./images/medical-report.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <h4>Get digital report within a day</h4>
+                                <p>A certified professional will collect your sample from your preferred location</p>
+                            </div>
+                        </div>
+                        <div class="point flex">
+                            <div class="image">
+                                <img src="./images/reward.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <h4>Offers and affordable prices</h4>
+                                <p>Get great discounts and offers on tests and packages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="working">
+            <div class="container">
+                <div class="title">
+                    <h4>How it works?</h4>
+                </div>
+                <div class="flex flex-wrapper">
+                    <div class="flex point">
+                        <div class="image">
+                            <img src="./images/test-tube.svg" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>Search for tests and packages and seamlessly book a home sample collection.</p>
+                        </div>
+                    </div>
+                    <span class="line"></span>
+                    <div class="flex point">
+                        <div class="image">
+                            <img src="./images/professional.svg" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>We will send a certified professional to your place to assist you with the sample collection  </p>
+                        </div>
+                    </div>
+                    <span class="line"></span>
+                    <div class="flex point">
+                        <div class="image">
+                            <img src="./images/on-time.svg" alt="">
+                        </div>
+                        <div class="desc">
+                            <p>We will email you the reports. You can also access your reports within your account on the Practo app</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="customers bg">
+            <div class="container">
+                <div class="title">
+                    <h4>Our Happy Customers  </h4>
+                </div>
+                <div class="testimonials owl-carousel">
+                    <div class="item">
+                        <p>"Everything went very well and smoothly. Technician was right on time. Really happy with the service."</p>
+                        <h4>Ram Prasad</h4>
+                    </div>
+                    <div class="item">
+                        <p>"Really happy with the service."</p>
+                        <h4>Ram Kumari</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <!-- Footer Top -->
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+
+                            <!-- Footer Widget -->
+                            <div class="footer-widget footer-about">
+                                <div class="footer-logo">
+                                    <img src="https://mediisha.nepalrocks.com/assets/img/features2/melogo.svg"
+                                        alt="logo">
+                                </div>
+                                <div class="footer-about-content">
+                                    <div class="social-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Footer Widget -->
+
+                        </div>
+
+                        <div class="col-lg-2 col-md-2">
+
+                            <!-- Footer Widget -->
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">About</h2>
+                                <ul>
+                                    <li><a href="#">About Mediisha</a></li>
+                                    <li><a href="#">Mission</a></li>
+                                    <li><a href="#">Carrer</a></li>
+                                </ul>
+                            </div>
+                            <!-- /Footer Widget -->
+
+                        </div>
+
+                        <div class="col-lg-2 col-md-2">
+
+                            <!-- Footer Widget -->
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">Services</h2>
+                                <ul>
+                                    <li><a href="#">Care Plans</a></li>
+                                    <li><a href="#">Find Appointments</a></li>
+                                    <li><a href="#">Book Lab Test</a></li>
+                                    <li><a href="#">Order Medicines</a></li>
+                                </ul>
+                            </div>
+                            <!-- /Footer Widget -->
+
+                        </div>
+
+
+                        <div class="col-lg-2 col-md-2">
+
+                            <!-- Footer Widget -->
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">See a Doctor</h2>
+                                <ul>
+                                    <li><a href="#">Our Doctors</a></li>
+                                    <li><a href="#">Specilities Doctor</a></li>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                </ul>
+                            </div>
+                            <!-- /Footer Widget -->
+
+                        </div>
+
+
+
+                        <div class="col-lg-2 col-md-2">
+
+                            <!-- Footer Widget -->
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">Resources</h2>
+                                <ul>
+                                    <li><a href="https://mediisha.nepalrocks.com/appointments">Blogs</a></li>
+                                    <li><a href="https://mediisha.nepalrocks.com/chat">FAQ</a></li>
+                                    <li><a href="https://mediisha.nepalrocks.com/login">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <!-- /Footer Widget -->
+
+                        </div>
+
+                        <div class="col-lg-2 col-md-2">
+
+                            <!-- Footer Widget -->
+                            <div class="footer-widget footer-menu">
+                                <h2 class="footer-title">Download</h2>
+
+                                <div class="download_footer">
+                                    <a href="">
+                                        <i class="fab fa-google-play"></i> Google Play
+                                    </a>
+
+                                    <a href="">
+                                        <i class="fab fa-apple"></i> App Store
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /Footer Widget -->
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- /Footer Top -->
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="container">
+
+                    <!-- Copyright -->
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="copyright-text">
+                                    <p class="mb-0">&copy; 2022 Mediisha. All rights reserved.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+
+                                <!-- Copyright Menu -->
+                                <div class="copyright-menu">
+                                    <ul class="policy-menu">
+                                        <li><a href="https://mediisha.nepalrocks.com/term-condition">Terms and
+                                                Conditions</a></li>
+                                        <li><a href="https://mediisha.nepalrocks.com/privacy-policy">Policy</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /Copyright Menu -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Copyright -->
+
+                </div>
+            </div>
+            <!-- /Footer Bottom -->
+
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://mediisha.nepalrocks.com/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/js/all.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
